@@ -1,4 +1,6 @@
 import Navbar from "@/scens/navbar"
+import Home from "@/scens/home/index"
+
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types";
 
@@ -23,6 +25,7 @@ function App() {
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage} 
         setSelectedPage={setSelectedPage}/>
+        <Home  setSelectedPage={setSelectedPage}/>
         </div>
        
   )
