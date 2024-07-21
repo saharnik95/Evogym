@@ -75,7 +75,7 @@ const Benefits = ({setSelectedPage}: Props) => {
         {/*description*/}
         <div>
             {/*title*/}
-            <div className="relative">
+             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
                 <motion.div
                   initial="hidden"
