@@ -4,6 +4,8 @@ import Benefits from "@/scens/benefits/index"
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types";
 import OurClasses from "./scens/ourClasses";
+import ContactUs from "./scens/contactUs";
+
 
 function App() {
   const [selectedPage,setSelectedPage]=useState<SelectedPage>(SelectedPage.Home);
@@ -29,7 +31,7 @@ function App() {
         <Home  setSelectedPage={setSelectedPage}/>
         <Benefits  setSelectedPage={setSelectedPage}/>
         <OurClasses  setSelectedPage={setSelectedPage}/>
-
+        <ContactUs  setSelectedPage={setSelectedPage}/>       
 
         </div>
        
